@@ -1,2 +1,15 @@
 # Computer_Networking
-Building up a implementation of a significant portion of the Internet—a router, a network interface, and the TCP protocol (which transforms unreliable datagrams into a reliable byte stream)
+
+# Environment Set up
+* Install VirtualBox
+* Install Ubuntu
+* Set up SSH prot forwarding to VM
+    * Network settings -> advanced
+    * Add a port forwarding rule
+Give it a name, and use the following settings:
+    ```BUSH
+    protocol: TCP
+    Host IP: 127.0.0.1
+    ost Port: 2222
+    Guest IP: (leave blank)
+    Guest Port: 22```
